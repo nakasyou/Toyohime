@@ -1,4 +1,4 @@
-import tr from 'npm:tor-request';
+import tr from 'tor-request';
 
 tr.setTorAddress("127.0.0.1",9050)
 console.log("Your not tor ip is "+await(await fetch("https://api.ipify.org")).text())
