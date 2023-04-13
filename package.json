@@ -2,10 +2,11 @@
   "name": "toyohime",
   "version": "1.0.0",
   "description": "Toyohime connects onion to web",
-  "main": "serve.ts",
+  "main": "serve.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "type": "module"
 }
